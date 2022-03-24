@@ -2,14 +2,14 @@
 <project name="fastdriveway" default="dist" basedir=".">
 
     <!-- enter the SVN commit message -->
-    <property name="commit.message" value="Add FastDriveway"/>
+    <property name="commit.message" value="Fix icon path"/>
     <!-- enter the *lowest* JOSM version this plugin is currently compatible with -->
     <property name="plugin.main.version" value="10580"/>
-    <property name="plugin.version" value="v1.0.0"/>
+    <property name="plugin.version" value="v1.0.1"/>
     <property name="plugin.author" value="NieWnen"/>
     <property name="plugin.class" value="org.openstreetmap.josm.plugins.fastdriveway.FastDrivewayPlugin"/>
     <property name="plugin.description" value="Faster driveway mapping."/>
-    <property name="plugin.icon" value="fastdriveway.png"/>
+    <property name="plugin.icon" value="images/fastdriveway.png"/>
 
     <property name="plugin.canloadatruntime" value="true"/>
     <!-- ** include targets that all plugins have in common ** -->
